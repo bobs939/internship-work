@@ -1,0 +1,187 @@
+nav {
+    display: flex;
+
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+nav a:hover {
+    color: black;
+}
+
+iframe {
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    height: 475px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.line {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0px;
+    left: 373px;
+    font-size: 71px;
+
+}
+
+#btf {
+    position: relative;
+    text-align: center;
+
+}
+
+#one {
+    width: 100%;
+}
+
+#wc {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+
+#two {
+    border-radius: 10px;
+
+}
+
+p#lt {
+    margin: 42px;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tp {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+
+}
+
+img#num {
+    border-radius: 20px;
+    width: 535px;
+    height: 400px;
+    box-shadow: 10px 10px 5px #ccc;
+
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+
+    margin: 20px;
+}
+
+img#erth {
+    border-radius: 20px;
+    width: 535px;
+    height: 400px;
+    box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    margin: 20px;
+}
+
+div#txtbox {
+    margin: 80px;
+    position: relative;
+}
+
+div#box {
+    position: absolute;
+    top: 60px;
+    left: 281px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+    width: 600px;
+    height: 317px;
+    opacity: 80%;
+}
+
+img#three {
+    border-radius: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+
+}
+
+p#li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px;
+
+}
+
+button#bt {
+    background-color: black;
+    color: white;
+    width: 140px;
+    border-radius: 10px;
+    height: 37px;
+}
+button#bt:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+label {
+    margin: 26px;
+}
+input{
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+    margin:5px
+}
+input#name {
+    margin-left: 29px;
+}
+input#address {
+    margin-left: 16px;
+}
+input#email {
+    margin-left: 30px;
+}
+#register{
+    margin:10px;
+    background-color: aquamarine;
+    color:black;
+    border-radius: 5px;
+    width: 115px;
+    height: 40px;
+    margin-left: 270px;
+
+}
+#register:hover{
+    color:white;
+    background-color: black;
+}
+#txtbox{
+    position: relative;
+}
+/* for pop up register form */
+.openpop-up {  
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 20px;
+    position:absolute;
+    top:0px;
+    left:25%;
+    visibility: hidden; 
+    opacity:100%;
+}
+
+

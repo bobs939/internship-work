@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proton</title>
+</head>
+
+<body>
+    <header>
+        <!-- for the navigation bar -->
+        <nav id="navbar"> 
+
+            <a href="#" onclick="homec()">Home</a>
+            <a href="#" onclick="featurec()">Features</a>
+            <a href="#" onclick="downloadc()"> Download</a>
+            <a href="#" onclick="careerc()">Career</a>
+            <a href="#" onclick="pricingc()">Pricing</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <!-- this is the video  -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dpEPNioJ1Ik?autoplay=1&mute=1"
+            title="YouTube video player" frameborder="0" autoplay="true"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div id="whole box">
+            <div id="btf"><img src="images/original.jpg" id="one"><!--the first picture with text on top of it-->
+                <p class="line"><b>Building the future</b></p>
+            </div>
+            <div id="wc"><img src="images/work culture.png" id="two">
+                <p id="lt"><b>Features <span style="color: orangered"> Ought</span> to Partake</b></p>
+            </div>
+            <div id="tp">
+                <p><img src="images/1542298796.jpg" id="num"></p>
+                <p><img src="images/earth.png" id="erth"></p>
+            </div>
+            <div id="txtbox">
+                <p id="np"><img src="images/nature.jpg" id="three">
+                 <div id="box">
+                    <p id="li"> <span style=" font-size: 30px; ;"><b>Every Inspiration from Nature</b><br><br></span>
+                        Get started using our services with a 30-Day free trial.<br><br><br><br><br>
+                        <button type="submit" id="bt" onclick="openpopup()">Try it Now! </button>
+                    </p>
+                 </div>
+                </p>
+                <div    id="pop-box" class="openpop-up"><!--it is a pop up box that has form in it.-->
+               
+                    <label class="name">Name:
+                        <input type="text" id="name" placeholder="John"></label>
+                    <label class="Username">Username:
+                        <input type="text" id="un" placeholder=""></label>
+                    <label class="name">Password:
+                        <input type="password" id="pw" placeholder=""></label>
+                    <label class="address">Address:
+                        <input type="text" id="address" placeholder="Swoyambhu"></label>
+                    <label class="Phone">Phone no.:
+                        <input type="number" id="pn" placeholder=""></label>
+                    <label class="form-label">Email:
+                        <input type="email" id="email" placeholder="name@example.com"></label>
+                    <button type="submit" id="register" onclick="closepopup()">Register</button>
+                
+            
+                </div>
+            
+
+            </div>
+        </div>
+    </main>
+
+    <script src="proton.js"></script>
+</body>
+
+</html>
